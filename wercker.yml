@@ -5,6 +5,7 @@ build:
         name: A step that executes `npm install` command
         code: npm install  
 
+
 push-to-releases:
   steps:
     # Push to public docker repo Container Registry (CR)
